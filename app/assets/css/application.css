@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: -100px;
+  min-height: 100%;
+}
+
+#notifications {
+  float: right;
+}
+
+#notifications p {
+  color: blueviolet;
+}
+
+.users-list {
+  float: left;
+  width: 40%;
+}
+
+.users-list tr:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.users-list .selected {
+  color: blue;
+}
+
+.user-view {
+  margin-left: 40%;
+}
+
+div .user-edit label {
+  width:auto;
+}
+
+input[type='text']{
+  overflow:hidden;
+  box-shadow: none;
+  vertical-align: middle;
+  background:none;
+  width:100%;
+}

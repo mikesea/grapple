@@ -1,0 +1,21 @@
+{
+  "name": "Grapple",
+  "version": "0.0.1",
+  "authors": [
+    "Mike Chlipala <mike@chlipala.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies" : {
+    "knockout.js": "~2.3.0",
+    "jquery": "~1.8.3"
+  }
+}
